@@ -7,6 +7,10 @@ DKMS install was not needed, and was not tested!
 
 ## Prerequisites (on Ubuntu, Debian)
     $ sudo apt install build-essential linux-headers-generic dkms
+## Prerequisites (on Ubuntu, Debian)
+    $ pacman -S linux-lts-headers dkms
+    $ pacman -S linux-headers dksm
+    
 (If you use a non-generic kernel, you should install the headers for that. DKMS is optional.)
 ## Building
     $ make
