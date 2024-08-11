@@ -7,7 +7,7 @@ DKMS install was not needed, and was not tested!
 
 ## Prerequisites (on Ubuntu, Debian)
     $ sudo apt install build-essential linux-headers-generic dkms
-## Prerequisites (on Ubuntu, Debian)
+## Prerequisites (Arch Linux, Arch based distro)
     $ pacman -S linux-lts-headers dkms
     $ pacman -S linux-headers dksm
     
